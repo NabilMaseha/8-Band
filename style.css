@@ -1,0 +1,512 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width:90%;
+    margin: auto;
+    
+}
+
+.navbar{
+   background-color:rgb(4, 1, 1);
+    overflow: auto;
+}
+ul{
+    /*background-color: teal;*/
+    float: left;
+    list-style: none;
+}
+
+
+.navbar li{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar  a:hover{
+    color: red;
+}
+
+
+.navbar .logo img{
+    margin-top: 20px;
+    margin-right:30px;
+    width: 20px;
+    transition: 0.9s ease;
+    
+}
+.navbar .logo img:hover{
+    background-color: red;
+    margin-top: 20px;
+    margin-right:30px;
+    width:30px;
+
+    
+ }
+
+
+.logo{
+    float: right;
+}
+
+/*home section*/
+
+.home{
+    background-image: url(images/la.jpg);
+    height: 100vh;
+    overflow: auto;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.home-content{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 600px;
+    color: white;
+    overflow: auto;
+    
+}
+.home-content p {
+    font-size: 18px;
+}
+
+/*------------home-mid-----------*/
+
+
+.home-mid{
+    background-color: #00000000;
+   /* width: 100%;*/
+    text-align: center;
+
+}
+
+.content-mid{
+    /*width: 80%;*/
+    padding-top: 20px;
+    
+}
+
+.cm-h2 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 22.5px;
+    letter-spacing: normal;
+    margin-top: 20px;
+}
+
+.cm-p1{
+    text-align: center ;
+    font-size: 15px;
+    line-height: 22.5px;
+    letter-spacing: normal;
+    margin-top: 20px;
+}
+
+.cm-p2{
+    text-align: center;
+    font-size: 15px;
+    line-height: 22.5px;
+    letter-spacing: normal;
+    margin-top: 20px;
+
+}
+
+/* ------------middel---------*/
+
+
+
+.img-middle{
+    overflow: auto;
+    padding: 70px 0;
+    padding-left: 250px;
+    width: 75%;
+
+
+}
+
+.img-mid{
+    float: left;
+    width:25%;
+}
+
+/* ---------------Tour dats----------------- */
+
+hr{
+
+    height: .5px;
+    background-color: rgb(191, 186, 186);
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-width: 0px;
+  
+
+}
+
+.fsize-about{
+    width: 100%;
+    margin-top: 35px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.fsize-about .about{
+
+    width: 50%;
+    margin-bottom: 20px;
+    
+   
+     
+}
+
+.fsize-about .about .about-content{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+   
+
+
+}
+.fsize-about .about .about-content h4{
+    color:rgb(133, 237, 237);
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: normal;
+
+
+}
+
+.fsize-about .about .about-content p{
+    color:rgb(122, 127, 127);
+    font-size: small;
+    margin-top: 10px;
+
+}
+
+
+
+.fsize-about .about .dats-size{
+    width: 100%;
+    display: flex;
+
+}
+
+.fsize-about .about .about-dats{
+    background-color: white;
+    color: rgb(7, 7, 7);
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction:column;
+}
+
+.fsize-about .about .about-dats p{
+   
+    width:100%;
+    margin: 20px;
+    
+}
+
+.fsize-about .about .about-dats .p1 span{
+    background-color: rgb(234, 0, 0);
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+.fsize-about .about .about-dats .p2 span{
+    background-color: rgb(234, 0, 0);
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+
+
+}
+.fsize-about .about .about-dats .p3 span{
+    background-color: rgb(11, 11, 11);
+    margin-bottom: 10px;
+    margin-right: 50px;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: rgb(2, 2, 2);
+    border: 3px solid #000;
+    text-align: center;
+}
+
+.fsize-about .about .about-dats .p1{
+    margin-top: 10px;
+
+}
+.fsize-about .about .about-dats .p2{
+    margin-top: 10px;
+
+}
+.fsize-about .about .about-dats .p3{
+    margin-top: 10px;
+    display: flex;  
+    justify-content:space-between;
+
+}
+
+
+.fsize-about .about .about-images{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 5px;
+    
+    
+    
+}
+
+.fsize-about .about .about-images .item{
+    width: 33.33%;
+    margin-right:12px ;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.fsize-about .about .about-images .item p{
+    color: black;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.fsize-about .about .about-images .item .bt-black{
+  
+        border: 1px solid lightgrey;
+        border-radius: 2px;
+        background-color: rgb(5, 5, 5);
+        color: #f4f0f0;
+        padding: 15px 25px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 5px;
+        margin-left: 10px;
+      
+
+}
+
+.fsize-about .about .about-images .item img{
+    width: 100%;
+}
+
+.fsize-about .about .about-images .item .p1{
+
+    color: black;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.fsize-about .about .about-images .item .p2{
+
+    color: rgb(174, 174, 174);
+    margin: 15px;
+    font-weight: normal;
+}
+
+.fsize-about .about .about-images .item .p3{
+
+    color: black;
+    margin: 20px;
+    font-weight: normal;
+}
+
+
+
+/* --------------Contact------------ */
+
+.clear{
+    clear: both;
+}
+
+.contact{
+    background-color: white;
+    width: 100%;
+   margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.contact .contact-content{
+    width: 50%;
+    margin-bottom:50px ;
+    
+}
+
+.contact .contact-content .h-content{
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+
+.contact .contact-content .p-content1{
+    text-align: center;
+    color:rgb(122, 127, 127);
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 20px;
+
+
+}
+
+.contact .contact-content .input-contact{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top:30px ;
+    margin-bottom: 20px ;
+    
+}
+.contact .contact-conten .img-con{
+    display: inline;
+}
+
+.contact .contact-content .input-contact img{
+    height:30px;
+    display: inline;
+}
+
+
+.contact .contact-content .input-contact .p-input-content{
+    font-size: 20px;
+    display: inline;
+    
+}
+
+
+.contact .contact-content .input-contact input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-left: 18px;
+
+
+}
+
+.contact .contact-content .input-phon{
+    display: flex;
+    justify-content:space-between;
+   
+}
+
+.contact .contact-content .input-phon input{
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    width: 51.5%;
+    height: 40px;
+    
+}
+.contact .contact-content .input-phon img{
+    height:30px;
+    display: inline;
+}
+
+.contact .contact-content .button-content {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+   
+
+
+   
+}
+
+.contact .contact-content .button-content button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px;
+    width: 10%;
+    font-weight: normal;
+}
+
+
+/* -----------------map--------------- */
+
+.bg-width{
+    width: 100%;
+    text-align: center;
+}
+.bg-map{
+    width: 100%;
+    /* background-image: url(images/map.jpg);
+    background-size: cover;
+    background-position: center; */
+    /* height: 100vh;
+    overflow: auto;
+    background-size: cover;
+    background-position: center; */
+    
+}
+
+/* --------------------- Footer------------------------ */
+
+.footer{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-top: 50px;
+    text-align:center;
+    margin-bottom: 50px;
+
+}
+.social-footer{
+   
+    flex-direction: row;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.social-footer img{
+    width: 20px;
+}
+
+
+
+
+.footer .footer-two{
+
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+
+
+
+
+/* overflow: auto; */
